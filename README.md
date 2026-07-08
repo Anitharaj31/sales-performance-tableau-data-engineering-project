@@ -19,20 +19,40 @@ The objective of this project is to transform raw CSV data into interactive visu
 ---
 
 ## Project Structure
-data engineering project
+
+```text
+data-engineering-project
 │
-├── Data
-│ ├── sales_summary.csv
-│ ├── product_performance.csv
-│ └── customer_sales.csv
+├── data
+│   ├── sales_summary.csv
+│   ├── product_performance.csv
+│   ├── customer_sales.csv
+│   ├── raw
+│   └── processed
 │
 ├── Tableau
-│ └── Sales_Performance_Dashboard.twbx
+│   └── Sales_Performance_Dashboard.twb
 │
 ├── Images
-│ └── dashboard.png
+│   └── Sales Analysis Dashboard.png
 │
-└── README.md
+├── src
+│   ├── ingestion.py
+│   ├── transformation.py
+│   ├── data_quality.py
+│   └── run_pipeline.py
+│
+├── sql
+│   └── analytics.sql
+│
+├── config
+│   └── config.py
+│
+├── reports
+│
+├── requirements.txt
+│
+└── README.md       
 
 ---
 
