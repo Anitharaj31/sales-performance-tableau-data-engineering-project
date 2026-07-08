@@ -87,6 +87,10 @@ The Tableau dashboard provides:
 - Interactive dashboard filtering
 - Business-focused visualizations
 
+## Dashboard Preview
+
+![Sales Performance Dashboard](Images/Sales%20Analysis%20Dashboard.png)
+
 ---
 
 ## Tableau Dashboard Sheets
